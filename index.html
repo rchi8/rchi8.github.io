@@ -4,29 +4,36 @@
   <meta charset="UTF-8">
   <title>Ryohei Chihara's Mathematical Research Portfolio</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="dropdown.js" defer></script> 
 </head>
 <body>
   <header>
     <h1>Ryohei Chihara</h1>
     <nav>
-      <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#research">Research Interests</a></li>
-        <li><a href="#publications">Publications</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+      <div id="dropdown">
+        <button id="menuButton">Menu</button>
+        <ul id="menuList">
+          <li><a href="#interests">Interests</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#talks">Talks</a></li>
+          <li><a href="#employment">Employment</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#links">links</a></li>
+        </ul>
+      </div>
     </nav>
   </header>
 
   <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>I'm Ryohei Chihara, earned a Ph.D. in Mathematics from the University of Tokyo in 2020, and now exploring AI and Data Science.</p>
-    </section>
+    <section id="welcome">
+      <h2>Welcome!</h2>
+      <p>I'm Ryohei, a PhD in Math turned Software Engineer. Now, I'm diving into Data Science. Nice to meet you!</p>
+    </section>    
 
     <section id="research">
-      <h2>Research Interests</h2>
-      <p>My focus is on differential geometry and functional analysis.</p>
+      <h2>Interests</h2>
+      <p>My focus is on differential geometry, Applied analysis and Data Science.</p>
     </section>
 
     <section id="publications">
@@ -38,11 +45,42 @@
       </ul>
     </section>
 
+    <section id="talks">
+      <h2>Talks</h2>
+      <ul>
+        <li>Talk 1</li>
+        <li>Talk 2</li>
+      </ul>
+    </section>
+
+    <section id="employment">
+      <h2>Employment</h2>
+      <ul>
+        <li>Current: IT Company (AI and Data Science)</li>
+        <li>Former: Research Associate and Adjunct Lecturer at a University</li>
+      </ul>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li>Ph.D. in Mathematics, University of Tokyo, 2020</li>
+        <li>Vocational Training in Server Construction and Web App Development</li>
+      </ul>
+    </section>
+
     <section id="contact">
       <h2>Contact Information</h2>
       <p>Email: example@example.com</p>
     </section>
+
+    <section id="links">
+      <h2>Links</h2>
+      <ul>
+        <li>Ph.D. in Mathematics, University of Tokyo, 2020</li>
+        <li>Vocational Training in Server Construction and Web App Development</li>
+      </ul>
+    </section>
   </main>
 </body>
 </html>
-
