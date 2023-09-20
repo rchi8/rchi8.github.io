@@ -67,7 +67,7 @@ p {
   cursor: pointer;
   width: 100px;  /* ボタンの幅 */
   height: 50px;  /* ボタンの高さ */
-  font-size: 24px;  /* 文字サイズ */
+  font-size: 32px;  /* 文字サイズ */
 }
 
 #menuList {
@@ -79,7 +79,9 @@ p {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  font-size: 24px;
 }
+
 
 #menuList li {
   display: block;
